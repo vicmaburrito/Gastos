@@ -125,7 +125,7 @@ thead{
     margin-bottom: 15px ;
     text-transform: uppercase;
     display: inline-block;
-    background: #F073C8;
+    background: black;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -145,21 +145,21 @@ thead{
 #Total{
     padding: 10px 15px;
     border-radius: 5px;
-    border: 3px solid #1C2540;
+    border: 3px solid black;
     height: 45px;
     display: flex;
     justify-content: space-between;
 }
 #Total p{
     font-weight: bold;
-    color: #97A5CE;
+    color: white;
     font-size: 1.5rem;
     margin-right: 10px;
 }
 #Total span{
     font-size: 1.5rem;
     font-weight: bold;
-    color: white;
+    color: limegreen;
 }
 /* AÑADIR TABLA */
 .addGasto{
@@ -210,7 +210,7 @@ thead{
 }
 .input input:focus,
 .input textarea:focus{
-    border-color: #F073C8;
+    border-color: green;
 }
 .input textarea{
     max-width: 100%;
